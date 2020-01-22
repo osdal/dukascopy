@@ -1,0 +1,17 @@
+/* CSS Document */
+
+footer {
+	background: #4a76a8;
+	width: 100%;
+	color: #FBF9F9;
+}
+
+footer p{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+}

@@ -1,0 +1,73 @@
+/* CSS Document */
+
+//Replies
+
+.replies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	background: #E5E5E5;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.avatar img {
+    width: 80px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.replies_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.replies_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.replies_name a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.replies_name {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.replies_text {
+    font-size: 15px;
+}
+
+.replies .replies_item:nth-child(even) {
+    background: #4a76a8;
+	color: #F8F3F3;
+}
+
+.replies .replies_item:nth-child(even)  a{
+	color: #FFFFFF;
+}
+
+.add_reply {
+	background: #4a76a8;
+	width: 50%;
+	height: 50px;
+	border: thin #0409E0;
+	border-radius: 15px 15px 0 0;
+	color: #fff;
+	font-size: 15px;
+	outline: none;
+}
+
+.add_reply:hover {
+	background: #4448FB;
+	cursor: pointer;
+	outline: none;
+}

@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("header.css");
+@import url("footer.css");
+@import url("right_sidebar.css");
+@import url("top-button.css");
+@import url("contact.css");
+
+
+@import url("normalize.css");
+@import url("../webfonts/RobotoRegular/stylesheet.css");
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px;
+}
+
+.content, .content_withdraw {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content_withdraw {
+	width: 150%;
+}
+
+.content_withdraw img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+hr  {
+	border: none;
+	display: block;
+	width: 3%;
+	height: 10px;
+	background: url("../img/star-of-david.svg");
+	background-repeat: round;
+}
+
+h2 {
+	font-size: 30px;
+	color: #FC0A2F;
+	font-weight: 900;
+}
+
+p, li {
+	text-align: justify;
+	font-size: 25px;
+}
+
+
+.chapter_list {
+	margin-right: 50px;
+}
+
+.chapter_list h3{
+	font-size: 30px;
+}
+
+.chapter_list ul {
+	list-style-image: url("../img/star-of-david.svg");
+}
+
+.chapter_list li {
+	margin-bottom: 15px;
+	background: #4a76a8;
+	color: #FDFBFB;
+	height: 40px;
+	font-weight: 900;
+	border-radius: 10px;
+}
+
+.chapter_list li:hover {
+	background: #FF0158;
+}
+
+.chapter_list li:last-child {
+	margin-bottom: 0;
+}
+
+.chapter_list li a {
+	display: block;
+	height: 100%;
+	padding: 5px 20px 30px 10px;
+	text-decoration: none;
+	color: #FBFBFB;
+}
+
+.main_title {
+    text-align: center;
+}
+
+.dukass {
+    margin: 0 auto;
+}
+
+.pass_example {
+	display: flex;
+}
+
+.pass_example div{
+	margin: 10px;
+}
+.enter_code {
+    display: flex;
+}
+.enter_code div {
+    margin: 10 px;
+}
+.img_txt {
+    display: flex;
+	margin-bottom: 80px;
+}
+.img_txt div {
+    margin: 0 30px;
+}
+
+.img_txt>div>p:first-child {
+	margin-top: 0;
+}
+
+..list_lin eul {
+    list-style: none;
+}
+
+.list_line ul li:before {
+    content:  "—";
+    position: relative;
+    left:     -5px;
+}
+
+.social {
+	display: none;
+}
+
+@media (max-width: 1072px) {
+	.social {
+		display: block;
+	}
+	
+	aside {
+		display: none;
+	}
+	
+	.content {
+		width: 100%;
+	}
+	
+	.img_txt {
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	
+	}
+}
+
+

@@ -1,0 +1,33 @@
+/* CSS Document */
+
+header {
+	width: 100%;
+}
+
+menu {
+	display: flex;
+	align-items: center;
+	background: #4a76a8;
+	height: 60px;
+}
+
+menu ul {
+	list-style: none;
+	display: flex;
+}
+
+menu ul li {
+	color: #fff;
+	margin-right: 30px;
+	font-weight: 900;
+}
+
+menu ul li:hover {
+	color: #ECECEC;
+}
+
+menu ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 25px;
+}

@@ -1,0 +1,29 @@
+/* CSS Document */
+
+.form-container input {
+	display: block;
+	width: 300px;
+	height: 30px;
+	font-size: 20px;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+.form-container input[type="submit"] {
+	background: #0318FC;
+	border-radius: 10px;
+	outline: none;
+	color: #FCF8F8;
+	cursor: pointer;
+}
+
+
+.form-container textarea {
+	width: 350px;
+	margin-bottom: 20px;
+}
+
+
+.form-container label {
+	display: block;
+}
