@@ -46,12 +46,12 @@
     font-size: 15px;
 }
 
-.replies .replies_item:nth-child(even) {
+.replies .replies_item:nth-child(odd) {
     background: #4a76a8;
 	color: #F8F3F3;
 }
 
-.replies .replies_item:nth-child(even)  a{
+.replies .replies_item:nth-child(odd)  a{
 	color: #FFFFFF;
 }
 

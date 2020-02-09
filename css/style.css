@@ -64,6 +64,11 @@ p, li {
 	font-size: 25px;
 }
 
+.add_reply a {
+	text-decoration: none;
+	color: #FCFBFB;
+}
+
 
 .chapter_list {
 	margin-right: 50px;
